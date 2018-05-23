@@ -1,0 +1,158 @@
+/* Header */
+
+
+#logo {
+	width: 20%;
+	height: 75px;
+	background: #3e5982;
+}
+#logo img {
+	margin-left: 10px;
+}
+#logo p {
+	padding-top: 10px;
+	font-size: 18px;
+	line-height: 1.5;
+}
+#logo p span, #primary-menu li span {
+	font-size: 16px;
+	color: #de5947;
+}
+
+#primary-menu {
+	width: 80%;
+	font-size: 18px;	
+}
+#primary-menu ul {
+	width: 100%;
+	background: #d9d9d9;
+	height: 75px;
+	padding: 10px;
+	padding-left: 20px;
+}
+#primary-menu li {
+	width: 25%;
+}
+#primary-menu li p {
+	margin-bottom: 0;
+	color: black;
+}
+
+
+/* Content */
+
+.content-wrap > .col_one_fifth {
+	width: 20%;
+}
+.content-wrap > .col_fourth_fifth {
+	width: 80%;
+}
+
+/* Content - for reader*/
+#genres {
+	height: calc(100vh - 75px);
+	width: 20%;
+	background: #de594750;
+	position: fixed;
+}
+#genres h3 {
+	color: #de5947;
+	padding: 10px 0 0 20px;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+#genres h3 > i {
+	margin-left: 10px;
+}
+#genres .list-of-genres {
+	padding-left: 30px;
+	font-size: 16px;
+}
+#genres > a {
+	float: right;
+}
+.checkbox-style:checked + .checkbox-style-1-label::before {
+	background: #b9b9b9 !important;
+}
+
+#genres .block-genre-showmore {
+	position: absolute;
+	left: 101%;
+	width: 350px;
+	margin-top: -200px;
+	height: 200px;
+	background: grey;
+	z-index: 200;
+}
+#genres .block-genre-showmore .icon-remove {
+	position: absolute;
+	right: -10px;
+	font-size: 18px;
+}
+#genres .block-genre-showmore label {
+	color: white;
+}
+#genres .tab-content > div:not(.clear) {
+	border-bottom: 5px solid rgba(255,255,255,.3);
+}
+#genres .tab-content > div:nth-child(1) {
+	max-height: 25vh;
+	min-height: 130px;
+}
+#genres .tab-content > div:nth-child(3) {
+	height: 200px; 
+}
+ #genres .block-genre{
+	height: 60px;
+	cursor: pointer;
+}
+
+
+/* Content - for writer*/
+.tab-container {
+	padding: 0;
+}
+#tabs-writer > .panel {
+	margin-top: -1px;
+}
+#tabs-writer table {
+	background: white;
+}
+.panel-heading {
+	background-color: #3e5982 !important;
+	color: white !important;
+}
+#tabs-writer .row label {
+	background: #3e5982;
+	color: white;
+	width: 100%;
+	padding: 10px 15px;
+	margin: 0;
+	margin-top: -3px;
+}
+.btn-default.fileinput-remove.fileinput-remove-button {
+	display: none;
+}
+	
+
+
+
+
+
+
+/* main */
+#main {
+	height: calc(100vh - 75px);
+	margin-left: 20%;
+}
+#main .row > .col-md-4 .thumbnail{
+	max-width: 320px !important;
+	margin: auto;
+}
+#main .thumbnail h3 {
+	margin-bottom: 10px;
+}
+#main .thumbnail a {
+	width: 48%;
+	margin: 0;
+}
